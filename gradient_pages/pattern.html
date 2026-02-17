@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Grayscale Gradient</title>
+  <link rel="stylesheet" href="/gradient.css">
+  <style>
+    :root {
+      --page-color: linear-gradient(0turn, blue 0%, transparent 50%),
+      linear-gradient(0turn, hsl(60, 100%, 40%) 10%, transparent 50%),
+      linear-gradient(0turn, red 10%, transparent 50%),
+      linear-gradient(0turn, purple 10%, transparent 50%),
+      radial-gradient(circle,yellow 0%, transparent 50%),
+      radial-gradient(circle,rgb(219, 126, 49) 10%),
+      radial-gradient(circle, skyblue 20%);
+    }
+
+    .gradient-area {
+      background-image: var(--page-color);
+    };
+
+    #page-button {
+      background-color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <nav>
+      <div class="nav-buttons">
+        <div class="nav-button">
+          <a href="/index.html">INDEX</a>
+        </div>
+        <div class="nav-button">
+          <a href="/grayscale_gradient.html">Grayscale</a>
+        </div>
+        <div class="nav-button">
+          <a href="/rising_sun.html">Rising Sun</a>
+        </div>
+        <div class="nav-button">
+          <a href="/ranbow.html">Rainbow</a>
+        </div>
+        <div class="nav-button">
+          <a href="/indian_flag.html">Indian Flag</a>
+        </div>
+        <div class="nav-button">
+          <a href="/redial_flag.html">Redial Flag</a>
+        </div>
+        <div class="nav-button">
+          <a href="/sun_set.html">Sun Set</a>
+        </div>
+        <div class="nav-button" id="page-button">
+          <a href="/pattern.html">Pattern</a>
+        </div>
+      </div>
+    </nav>
+    <div class="gradient-area">
+    </div>
+  </main>
+</body>
+
+</html>
